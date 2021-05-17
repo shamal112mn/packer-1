@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-container">
+        <h2>This application shows you all your services status</h2>
+    </div>
+
+<div class="row">
+
+    {% for item in config_data.data %}
+        <div class="column show">
+
+                <a href="/services/{{ item.domain }}"><div class="content">
+                    <img src="/static/images/kubernetes.png"  class="image" alt="Mountains" style="width:6em;">
+                    <h4>{{ item.name }}</h4>
+                    <p>{{ item.message }}</p>
+                </div></a>
+        </div>
+    {% endfor %}
+
+  </div>
+</body>
+</html>

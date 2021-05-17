@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="top-container">
+    <h2>This application shows you all your services status</h2>
+</div>
+
+<div class="row">
+    <ul id="serviceMenu">
+    {% for item in config_data.data %}
+        <div class="column show">
+            {% if item.status %}
+
+                <li><a href="{{ item.url }}"><div class="content">
+                    <img src="{{ item.image }}"  class="image" alt="Mountains" style="width:6em;">
+                    <h4>{{ item.name }}</h4>
+                    <p>{{ item.message }}</p>
+                    <h5>{{ item.url }}</h5>
+                </div></a></li>
+
+            {% else %}
+            
+                <li><a href="{{ item.url }}"><div class="content" style="background-color: red;">
+                    <img src="{{ item.image }}" alt="Mountains" style="width:6em;">
+                    <h4>{{ item.name }}</h4>
+                    <p>{{ item.message }}</p>
+                    <h5>{{ item.url }}</h5>
+                </div></a></li>
+                
+            {% endif %}
+        </div>
+    {% endfor %}
+    </ul>
+{% endblock %}

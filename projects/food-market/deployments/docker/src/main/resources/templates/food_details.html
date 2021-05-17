@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+<head>
+    <title>About Us</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div layout:fragment="content">
+    <div class="card">
+        <h5 class="card-header" th:text="${food.foodType}"></h5>
+        <div class="card-body">
+            <h5 class="card-title" th:text="${food.name}"></h5>
+            <h6 th:text="${food.price}"></h6>
+            <p class="card-text">Food description</p>
+            <a href="#" class="btn btn-primary">Add to Shopping cart</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

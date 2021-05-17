@@ -1,0 +1,52 @@
+{{- if .Values.mysql.enabled }}
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: {{ include "isitup.name" . }}-mysql
+  labels:
+    app.kubernetes.io/name: {{ include "isitup.name" . }}-mysql
+    helm.sh/chart: {{ include "isitup.chart" . }}-mysql
+    app.kubernetes.io/instance: {{ .Release.Name }}-mysql
+    app.kubernetes.io/managed-by: {{ .Release.Service }}
+spec:
+  replicas: {{ .Values.mysql.replicaCount }}
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: {{ include "isitup.name" . }}-mysql
+      app.kubernetes.io/instance: {{ .Release.Name }}-mysql
+  serviceName: mysql
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: {{ include "isitup.name" . }}-mysql
+        app.kubernetes.io/instance: {{ .Release.Name }}-mysql
+    spec:
+      containers:
+      - name: {{ .Chart.Name }}
+        image: "{{ .Values.mysql.image.repository }}"
+        imagePullPolicy: {{ .Values.mysql.image.pullPolicy }}
+
+{{- if .Values.globalEnvironments.enabled }}
+        env:
+{{ toYaml .Values.globalEnvironments.environments | indent 8 }}
+{{- end }}
+        ports:
+          - name: http
+            containerPort: 3306
+            protocol: TCP
+
+          # livenessProbe:
+          #   httpGet:
+          #     path: /
+          #     port: http
+          # readinessProbe:
+          #   httpGet:
+          #     path: /
+          #     port: http
+
+{{- if .Values.imageSecret.enabled }}
+      imagePullSecrets:
+{{ toYaml .Values.imageSecret.allSecrets | indent 8 }}
+{{- end }}
+{{- end }}
+

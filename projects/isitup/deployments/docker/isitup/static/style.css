@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.content {
+    background-color: #5be6b3;
+    background-color: white;
+    padding-top: 20px;
+    height: 18em;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 2px 8px 0 rgba(0,0,0,0.19);
+    border-radius: 0.2em;
+}
+
+.content:hover {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 5px 30px 0 rgba(0,0,0,0.19);
+}
+
+
+.show {
+    display: block;
+    padding: 0.4em;
+}
+
+.top-container {
+    padding: 1em;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav input {
+    color: black;
+    padding: 9px 10em;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(76, 241, 145);
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.topnav a.active {
+    background-color: #3565e8;
+    color: white;
+}

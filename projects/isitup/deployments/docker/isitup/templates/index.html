@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="row">
+    <ul id="serviceMenu">
+    {% for user in config_data.data %}
+        {% if user.blog %}
+            <div class="column show" id="serviceMenu">
+                <li><a href="/services/{{ user.blog | replace('http://', '') | replace('https://', '') }}"><div class="content" >
+                    <img src="/static/images/kubernetes.png"  class="image" alt="Mountains" style="width:6em;">
+                    <h4>username: {{ user.login }}</h4>
+                    <h4>email: {{ user.email }}</h4>
+                    <h4>domain: {{ user.blog }}</h4>
+                    <p>{{ user.message }}</p>
+                </div></a></li>
+            </div>
+        {% else %}
+            <div class="column show" id="serviceMenu">
+                <li><a href="https://github.com/settings/profile"><div class="content" style="background-color: red;" >
+                    <img src="/static/images/kubernetes.png"  class="image" alt="Mountains" style="width:6em;">
+                    <h4>username: {{ user.login }}</h4>
+                    <p>Please add your domain name to your github account</p>
+                </div></a></li>
+            </div>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+{% endblock %}

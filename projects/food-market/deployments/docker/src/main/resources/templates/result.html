@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+Thank you your order received!
+<p>Your order is :</p>
+<table>
+    <tr>
+        <td th:text="${ordered_food.name}"></td>
+        <td th:text="${ordered_food.price}"></td>
+    </tr>
+</table>
+</body>
+</html>

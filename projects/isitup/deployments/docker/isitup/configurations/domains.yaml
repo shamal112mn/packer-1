@@ -1,0 +1,201 @@
+message: Configuration for all members
+data:
+- name: fuchicorp
+  domain: fuchicorp.com
+  message: FuchiCorp
+
+- name: adierg
+  domain: ergeshova.com
+  message: Adina Ergeshova
+
+- name: adilet1975
+  domain: abdraimov.com
+  message: Adilet Abdraimov
+
+- name: Ahmeddevops-Github
+  domain: ahmeddevopstrainning.com
+  message: Ahmed Aboagye
+
+- name: Aizhamal2312
+  domain: aizhamalt.com
+  message: Aizhamal Tashmamatova
+
+- name: Aksana-ozgon
+  domain: aksanakarim.com
+  message: Aksana Mamatova
+
+- name: Alina-2013
+  domain: alinacyber.com
+  message: Alina Salaidinova
+
+- name: balloray
+  domain: balogunrash.com
+  message: Rasheed Balogun
+
+- name: bekzhan-osh
+  domain: kamalov2020.com
+  message: Bekzhan Kamalov
+
+- name: bemakylbekova
+  domain: Bemakylbekova.com
+  message: Bermet Akylbekova
+
+- name: berkayh27
+  domain: berkayh.com
+  message: Berkay Hidiroglu
+
+- name: BillyMartin910
+  domain: teamkilly.com
+  message: Billy Martin
+
+- name: ceagone
+  domain: bohlar.com
+  message: Bola Ojetokun
+
+- name: davron1989
+  domain: davrononline.com
+  message: Davronbek Normuradov
+
+- name: element1313
+  domain: mywhiteswan.com
+  message: Shokhrukh Rajabov
+
+- name: erkinsinc
+  domain: tvixstock.com
+  message: Shumkarbek Erkin
+
+- name: Gheorghe-Rodideal
+  domain: gheorgherodideal.com
+  message: Gheorghe Rodideal
+
+- name: gitrahimi
+  domain: devopsplus.net
+  message: Mohammad Rahimi
+
+- name: gulmira07
+  domain: gulmiradevops.com
+  message: Gulmira Alimbekova
+
+- name: gulnazkk
+  domain: apyzova.com
+  message: Gulnaz Kutpidin kyzy
+
+- name: gulsenjm
+  domain: tapjangul.com
+  message: Gulshen Jumayeva
+
+- name: hyvz-devops
+  domain: hyavuz.com
+  message: Halil Yavuz
+
+- name: iasadova
+  domain: Iroda20.com
+  message: Iroda Arshidinova
+
+- name: ismailyashar
+  domain: ismailyashar.com
+  message: Ismail Yasar
+
+- name: john24rel
+  domain: johnoshikoya1.com
+  message: John Oshikoya
+
+- name: ksalrin
+  domain: kellysalrin.com
+  message: Kelly Salrin
+
+- name: MasterAKT
+  domain: akokomassiom.com
+  message: Akeem Ogunfowora
+
+- name: mersiko-88
+  domain: arka2.com
+  message: Kenjebek Joldoshov
+
+- name: merycicek
+  domain: merycicek.com
+  message: Meryem Elibal
+
+- name: metinbor
+  domain: metinbor.com
+  message: Metin Bor
+
+- name: nuraaly
+  domain: kamanbay.com
+  message: Nuraaly Bekmurzaev
+
+- name: nuraiusa
+  domain: nuraiusa.org
+  message: Nurai Berdalieva
+
+- name: olgadevops
+  domain: love2travelplaces.com
+  message: Olga Kozlova
+
+- name: ortacu
+  domain: vismisto.com
+  message: Tudor Ciupe
+
+- name: otabeks
+  domain: otabeks.com
+  message: Otabek Samatov
+
+- name: seckinemrah
+  domain: seckinemrah.com
+  message: Emrah Seckin
+
+- name: shamal112mn
+  domain: azatcloudsolution.net
+  message: Azat Murataliev
+
+- name: slimflex2
+  domain: hostframed.com
+  message: Bernard Ofori
+
+- name: snfuller
+  domain: kedishdevops.com
+  message: Suna Fuller
+
+- name: tikenek
+  domain: avtagro.com
+  message: Tynar Esenbaeva
+
+- name: tokmustafa
+  domain: tokmustafa.com
+  message: Mustafa Tok
+
+- name: turdalieva
+  domain: turdalieva.com
+  message: Gulzat Turdalieva
+
+- name: Tutac
+  domain: hasantutac.com
+  message: Hasan Tutac
+
+- name: utkul
+  domain: theezel.com
+  message: Utku Dincsoy
+
+- name: vitaliburak
+  domain: vitaliib.com
+  message: Vitalii Burak
+
+- name: vladbielov
+  domain: tridentfe.com
+  message: Vladyslav Bielov
+
+- name: vrodi18
+  domain: vladlen-aws.com
+  message: Vladlen Rodionov
+
+- name: yasirbil
+  domain: yasirbilgin.com
+  message: Yasir Bilgin
+
+- name: ynalbant
+  domain: yunusnalbant.com
+  message: Yunus Nalbant
+
+- name: Zulfiya0616
+  domain: myzulia.com
+  message: Zulia Zhumanazarova

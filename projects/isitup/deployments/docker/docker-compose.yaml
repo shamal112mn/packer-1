@@ -1,0 +1,31 @@
+isitup:
+  build: .
+  ports:
+  - "80:5000"
+
+## Mounting home directory of the application so developers can write code and check live
+## Also Mounting kube config so application can talk to kubernetes 
+  volumes: 
+  - ./:/app
+  - ~/.kube:/root/.kube/
+
+## You will need to export following credentials to run the app <GIT_TOKEN> <GITHUB_CLIENT_ID> <GITHUB_CLIENT_SECRET>
+  environment: 
+   GIT_TOKEN: ${GIT_TOKEN}
+  #  GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID}
+  #  GITHUB_CLIENT_SECRET: ${GITHUB_CLIENT_SECRET}
+   GOOGLE_APPLICATION_CREDENTIALS: /root/.kube/flask-kube.json
+  entrypoint: ["/bin/sh","-c"]
+
+  
+
+## Making sure that sql database synced with app 
+## Running the application with 5000 port 
+  command:
+  - |
+    echo "< Running the isitup application >"
+    pwd
+    cd isitup && python app.py migrate --run-syncdb
+    pwd
+    python app.py runserver 0.0.0.0:5000 --noreload
+    

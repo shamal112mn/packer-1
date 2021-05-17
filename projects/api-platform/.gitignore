@@ -1,0 +1,14 @@
+*Database*
+*test*
+*creds*
+*logs*
+*__pycache__*
+*.ftpconfig*
+*.DS_Store*
+*state*
+*.terraform*
+*fuchicorp-service-account*
+webplatform.db
+debug-config.cfg
+.vscode/settings.json
+*.tfvars

@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+<head>
+    <title>New Food/title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div layout:fragment="content">
+
+    <form action="#" th:action="@{/food}" th:object="${newFood}" method="POST">
+        <div class="form-group">
+            <label for="inputId">ID</label>
+            <input type="text" class="form-control" id="inputId" placeholder="Enter ID" th:field="*{id}">
+        </div>
+        <div class="form-group">
+            <label for="inputName">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Enter Name" th:field="*{name}">
+        </div>
+        <div class="form-group">
+            <label for="inputPrice">Price</label>
+            <input type="text" class="form-control" id="inputPrice" placeholder="Enter Price" th:field="*{price}">
+        </div>
+        <div class="form-group">
+            <label for="foodTypeSelect">Select Type</label>
+            <select class="form-control" id="foodTypeSelect" th:field="*{foodType}">
+                <option th:each="t : ${foodType}" th:value="${t}" th:text="${t}"></option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</div>
+
+</body>
+</html>

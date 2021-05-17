@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/scripts/search.js"></script>
+    <title>isitup</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="/">Home</a>
+        <a href="https://academy.fuchicorp.com">Academy</a>
+        <a href="https://fuchicorp.com">FuchiCorp</a>
+        <a href="https://github.com/fuchicorp">GitHub</a>
+        <a href="https://adminex.evolvecyber.com">Adminex</a>
+        <input type="text" id="searchInputServers" onkeyup="searchFunction()" placeholder="Search...">
+    </div>
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>

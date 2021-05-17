@@ -1,0 +1,82 @@
+message: Configuration for all members
+data:
+
+- name: Jenkins
+  image: /static/images/jenkins.png
+  message: Service is up running
+  url: http://jenkins.{domain}
+
+- name: Grafana
+  image: /static/images/grafana.png
+  message: Service is up running
+  url: https://grafana.{domain}
+
+- name: Nexus
+  image: /static/images/nexus.png
+  message: Service is up running
+  url: https://nexus.{domain}
+
+- name: Prometheus
+  image: /static/images/prometheus.png
+  message: Service is up running
+  url: https://prometheus.{domain}
+
+- name: Kubernetes Dashboard
+  image: /static/images/kubernetes.png
+  message: Service is up running
+  url: https://dashboard.{domain}
+
+- name: SonarQube
+  image: /static/images/sonarqube.png
+  message: Service is up running
+  url: https://sonarqube.{domain}
+
+- name: Ingress Controller
+  image: /static/images/nginx.png
+  message: Service is up running
+  url: https://jenkins.{domain}
+
+- name: Vault
+  image: /static/images/vault.png
+  message: Service is up running
+  url: https://vault.{domain}
+
+- name: External DNS
+  image: /static/images/external-dns.png
+  message: Service is up running
+  url: https://vault.{domain}
+
+- name: Waypoint
+  image: /static/images/waypoint.png
+  message: Service is up running
+  url: https://waypoint.{domain}
+  
+- name: Kibana
+  image: /static/images/kibana.png
+  message: Service is up running
+  url: https://kibana.{domain}
+
+- name: Elasticsearch
+  image: /static/images/elasticsearch.png
+  message: Service is up running
+  url: https://elasticsearch.{domain}  
+
+- name: Hello World Prod 
+  image: /static/images/hello-world.png
+  message: Service is up running
+  url: https://hello.{domain}
+
+- name: Hello World Dev 
+  image: /static/images/hello-world.png
+  message: Service is up running
+  url: https://dev.hello.{domain}
+
+- name: Hello World Stage 
+  image: /static/images/hello-world.png
+  message: Service is up running
+  url: https://stage.hello.{domain}
+
+- name: Hello World QA 
+  image: /static/images/hello-world.png
+  message: Service is up running
+  url: https://qa.hello.{domain}

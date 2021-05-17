@@ -1,0 +1,10 @@
+==========================================================
+Hello, Congrats, You were able to configure and deploy ISITUP.
+Please see bellow information about your applicaions. 
+
+################ isitup ###########################################
+
+        Chart version      - ${upper("${Chart_version}")}
+        Helm release name  - ${upper("${Helm_release_name}")}
+        Domain name        - ${upper("${Domain_name}")}
+        URL:               - https://${Domain_name}
