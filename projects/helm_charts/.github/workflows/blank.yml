@@ -1,0 +1,37 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Downloading the helm binary script 
+      run: |
+        ## Downloading and putting home directory
+        echo "Downloading helm command"
+        sudo curl https://get.helm.sh/helm-v2.11.0-linux-amd64.tar.gz -o ~/helm.gz
+        
+        ## untaring the helm command 
+        tar -zxvf ~/helm.gz
+        
+        ## Copy to right place 
+        ./linux-amd64/helm version --client
+
+    - name: Packaging helm charts 
+      run: |
+        ## init helm
+        ./linux-amd64/helm init -c
+
+        ## Packaging all helm charts 
+        for package in $(ls stable); do ./linux-amd64/helm package stable/$package; done
+        
+
+    - name: Cleaning the docs folder
+      run: |
+        rm -rf docs/*.tgz
+
+        
