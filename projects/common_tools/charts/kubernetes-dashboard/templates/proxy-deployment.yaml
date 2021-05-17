@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    k8s-app: oauth2-proxy
+  name: oauth2-proxy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      k8s-app: oauth2-proxy
+  template:
+    metadata:
+      labels:
+        k8s-app: oauth2-proxy
+    spec:
+      containers:
+      - args:
+        - --provider=github
+        - --email-domain=*
+        - --cookie-secure=true
+        - --upstream=http://{{ include "kubernetes-dashboard.fullname" . }}.kube-system.svc.cluster.local
+        - --http-address=0.0.0.0:4180
+        - --redirect-url=https://{{ .Values.endpoint }}/oauth2/callback
+        - --github-org={{ .Values.githubProxy.githubOrganization }}
+        - --pass-basic-auth={{ .Values.githubProxy.passBasicAuth }}
+        - --pass-access-token={{ .Values.githubProxy.passAccessToken }}
+        env:
+        - name: OAUTH2_PROXY_COOKIE_SECRET
+          value: RExNM0ZIeWxNcWUwMCtTWGhyRHdSUT09
+        - name: OAUTH2_PROXY_CLIENT_ID
+          value: {{ .Values.githubProxy.githubAuthClientId }}
+        - name: OAUTH2_PROXY_CLIENT_SECRET
+          value: {{ .Values.githubProxy.githubAuthSecret }}
+        image: {{ .Values.githubProxy.image }}
+        imagePullPolicy: Always
+        name: oauth-proxy
+        ports:
+        - containerPort: 4180
+          protocol: TCP
