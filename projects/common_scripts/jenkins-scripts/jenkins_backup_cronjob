@@ -1,0 +1,2 @@
+0 0 * * FRI bash /common_scripts/jenkins-scripts/jenkins-pod-snapshot.sh --sync
+

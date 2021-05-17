@@ -1,0 +1,8 @@
+*jenkins_home*
+*jenkins-cli*
+*key
+config
+*config
+Dockerfile
+set-environments/terraform/backend.tf
+set-environments/terraform/example.tfvars

@@ -1,0 +1,47 @@
+#Config YAML file #1
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLakNDQWhLZ0F3SUJBZ0lRSWVnODFRbXpuRzB6cFFLR1ZwWjhsekFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlSa05qSTJNMlF3WXkxa056YzBMVFF3T0dZdE9EVTRZeTFtTkRrMlltWTFaV1JrTVRndwpIaGNOTWpFd01USTBNREl4TURRM1doY05Nall3TVRJek1ETXhNRFEzV2pBdk1TMHdLd1lEVlFRREV5UmtOakkyCk0yUXdZeTFrTnpjMExUUXdPR1l0T0RVNFl5MW1ORGsyWW1ZMVpXUmtNVGd3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUURaQUhGNlpCeFNtN1JkUFpBWHZpTEwyWjJBTHUyTWh5V1pjcXREQXJCbwo3WitUWlNreVVCUXRKc2VHVmpWaXJ4UUozUHBKVUlLdEFWd2tZamFGTUtIcUZJMEhadnlqTmZyQXk2Ykc1TDk2CnB6OVIreFpMelZWNWRpVjNucmlHS0doT0tob1BJdi9XT3B5T2dubCs0NGU2bFFBZUZLNWp6cEkwUHR2Si8yRVoKTXVUU3VUVjNDek8vMWFkd3ZiRDc1NmJDNW5BeWlrZ0ViS0xOQUZBbkY4U3V3MkhXbXJZOTlRaFBudVBjR0hleQpPMGNTMWZ2cjdhUUxiNTc3VHNmWnJSc0NDdFF5bklCWkNGdnl2RngxS090UnNLbWxLUDJ3ZXNEMmgvSGJOZ09vCnpvUVNZMFV0enpzeG5qWDBvRG0rWEQ2ZXBvMWZhSEpyd1FCR1BnUGdXdXJyQWdNQkFBR2pRakJBTUE0R0ExVWQKRHdFQi93UUVBd0lDQkRBUEJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJSanBsbHpwRHhvSS9OeQpCdjdmSEp1RDBucUxLakFOQmdrcWhraUc5dzBCQVFzRkFBT0NBUUVBZGhuN1ZpVUs1VkhTTDdPWnVBQmo3WG43Ci9LVStLbm1Wckx4aVNLRWRUR1JWQURXRFJrbktKNENXdlRDZUZoZlovN01ET1laOEJrMHI2RW43OEhEZU5xNEsKV1BsSFlKNmorQnV0Um43MjZ5b0R1WEdNSDl6U2IxMXg4YVVwSVEzRk5CakNGNG9wY0JQcEpVZ0ZQRVZKVlp3Twp5ZUh6U1BmblZhdk1Rc3dDUERiM2hwR0wxTkpRbC9kYXpNUE1mODJrNGlDTjVrd09QaG5nZzc1NThlelRzUGtoCmhyR09hRnFSK0s5R1BickdKWk44ZVFlUmFIb3pjallIdlNlQUNzQndqNDVyY3BOT2FHVEhNYWRSK05vQTZURVQKdkRpaW1pdFZQZXpBT1ZFM1BxOHRwNFdEOTFYRGxZQmRDSEVyNVRDMWFRa2dIZEFuQVJBMFBnR2lRbFZQeWc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://35.185.235.161
+  name: gke_bamboo-theorem-302701_us-west1-b_fuchicorp-cluster103
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURLekNDQWhPZ0F3SUJBZ0lSQU9jVnNiNXRhVjlOb1p3WWlVNUJkQ293RFFZSktvWklodmNOQVFFTEJRQXcKTHpFdE1Dc0dBMVVFQXhNa04yUmhZakZoT1RrdFkyVTBOQzAwWmpnMUxXRTFNV010WXpRNE9EVm1ZMkUwTkRVeApNQjRYRFRJd01USXdPVEF3TkRNd05Wb1hEVEkxTVRJd09EQXhORE13TlZvd0x6RXRNQ3NHQTFVRUF4TWtOMlJoCllqRmhPVGt0WTJVME5DMDBaamcxTFdFMU1XTXRZelE0T0RWbVkyRTBORFV4TUlJQklqQU5CZ2txaGtpRzl3MEIKQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBMTlyWUdtSm9RZngzSVVEZHZUK0d2TzB5bVBkTmpDRmdMWTBQK1lhaQpOejJXTi91VjgxdTlzV0JnZ0pwYVdpMlYwWk1idk1JZjc2cmpnaWoxYWs3Yk9vNVU4cjlvS1AzakpwZU5veUhjCng3VnhLbEV4NG5MMkpmN2VWeC9kbE5jWk1xTEkzU0hTdENSOEZEM1ltSjVWQ051ZW1zWlZqMnNSZStrNmhCUGEKeDBJaXI4bWZFZi9JZUlaSWdPY0E3ZXdnWGVrNUhMYWFWTGZqSUJiRVlPa1V5MnJQNm10OWR3Mi9LMGJwVXlIKwo4TzFrQjFIamVQQjFta1FUSUVjNitGenNQc3FVUXI4ZUJuN1RlVGZvWUd2Mm9GSGhXU0VxN3E4dndiWFU3Sm1UCkwwQTU0SlY5L1M0MGRua29zWVBtMndRN2VoUGE0MjVvdUNRM1Q4WkNSNDJYc3dJREFRQUJvMEl3UURBT0JnTlYKSFE4QkFmOEVCQU1DQWdRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVUhNRnhIbjQ5TEwydwpabzNvSDRDSFFUTVVRbFF3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUdxb3N6a2lkT2l3ZUdId3gvb3RoMlJ5Ckp2UC9qY1JxZ1dOSExad3BBMVpoVjhYSkRyNFRjbU1PaXlnbEZXV3dabjhjMC9lQzJSQWFnZWdRS2ZrMWUxUnEKdzk3WG42ODZuT1RSR1hZY21yY3R0QVF1eFYzb1ZJdmhTVk5oa3ZVaHUwWVIvbEs5WkpPanNJczc2eVhmNU5TVwpzcTEzekoyMTBkSFhCSE5uRDRHOTU1R3hTVjJZbSthTHNhYkFFeXM0Ui9aMEhQTUdZYWNDNk1nbmZHeVlnQm9tCko2aEtOUmxxaU94WWdnZ1g4Sk1DUGFYcG41bnlHTWo3Rnhzc2l5ZmdIemNLWEVTaVowWlhlZG9EL1hnc0hndmoKbDZCVDJrdGd1cDZ3dGFnVUdYanZCTnI4U2g2TlF5bTY5ZkxnekZJdUZYK2hsd2tVZFhCNFp2cmozMzErc2ZrPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://104.198.105.41
+  name: gke_macro-creek-298123_us-west1-b_fuchicorp-cluster103
+contexts:
+- context:
+    cluster: gke_bamboo-theorem-302701_us-west1-b_fuchicorp-cluster
+    user: gke_bamboo-theorem-302701_us-west1-b_fuchicorp-cluster
+  name: gke_bamboo-theorem-302701_us-west1-b_fuchicorp-cluster
+- context:
+    cluster: gke_macro-creek-298123_us-west1-b_fuchicorp-cluster
+    user: gke_macro-creek-298123_us-west1-b_fuchicorp-cluster
+  name: gke_macro-creek-298123_us-west1-b_fuchicorp-cluster
+current-context: gke_bamboo-theorem-302701_us-west1-b_fuchicorp-cluster
+kind: Config
+preferences: {}
+users:
+- name: gke_bamboo-theorem-302701_us-west1-b_fuchicorp-cluster
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.A0AfH6SMD0GoDPIUeRf-ywCiHrJEGSV0mecK8khBedDwm7ct9x1FsP0CqnvZZc9NcZ2Qde3vrad-WHBWJB7VmZLJnh-K_4Nre4MCvxDulOlGuKSUgfTw4_qfuZU43rUEofAwH4J0rbFw-e_EF0Tx_KmEgLSC4ohV4C_RMFr88
+        cmd-args: config config-helper --format=json
+        cmd-path: /usr/lib64/google-cloud-sdk/bin/gcloud
+        expiry: "2021-02-25T01:17:31Z"
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp
+- name: gke_macro-creek-298123_us-west1-b_fuchicorp-cluster
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.a0AfH6SMAQmBe9WjuLcylrmX9vzt8vBEw-ofAH62TRlN7k8GWSoo3SEFpOaLLy3BBssyR5xX3rXBsnz0BIzyl2Gq2E_vE8zHT6Qg5hcMiV7g6Bl8N3g6M4e5MW0K9LphA8ZLy260xVpNI_M7TN2uDs0kta9KVEMfNVsKCPqtGg3IBJAa1Z4otDSA
+        cmd-args: config config-helper --format=json
+        cmd-path: /usr/lib64/google-cloud-sdk/bin/gcloud
+        expiry: "2021-01-21T19:40:05Z"
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp
+

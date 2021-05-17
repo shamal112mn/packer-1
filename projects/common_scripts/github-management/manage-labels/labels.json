@@ -1,0 +1,361 @@
+[
+  {
+    "name": "Blocked by DEV",
+    "color": "dba102",
+    "description": "If issue is blocked by Dev team choose this label."
+  },
+  {
+    "name": "Blocked by DevOps",
+    "color": "dba102",
+    "description": "If issue is blocked by DevOps team choose this label."
+  },
+  {
+    "name": "Blocked by QA",
+    "color": "dba102",
+    "description": "If issue is blocked by QA team choose this label."
+  },
+  {
+    "name": "DEV Release",
+    "color": "79e0b8",
+    "description": "If this issue releated to realse from DEV."
+  },
+  {
+    "name": "Dev Bug",
+    "color": "e20000",
+    "description": "If issue is a bug for DEV team select this label."
+  },
+  {
+    "name": "Dev Documentation",
+    "color": "9be6ff",
+    "description": "If issue requires documentaion from DEV team."
+  },
+  {
+    "name": "Dev Feature",
+    "color": "3ce200",
+    "description": "If issue is releated to DEV Feature."
+  },
+  {
+    "name": "DevOps Bug",
+    "color": "e20000",
+    "description": "If issue is Bug from DevOps team."
+  },
+  {
+    "name": "DevOps Documentation",
+    "color": "9be6ff",
+    "description": "If issue is requiring documentation from DevOps team."
+  },
+  {
+    "name": "DevOps Feature",
+    "color": "3ce200",
+    "description": "If issue is feature from DevOps team."
+  },
+  {
+    "name": "DevOps Release",
+    "color": "79e0b8",
+    "description": "If this issue releated to realse from DevOps."
+  },
+  {
+    "name": "QA Bug",
+    "color": "e20000",
+    "description": "If issue is Bug from QA team."
+  },
+  {
+    "name": "QA Documentation",
+    "color": "9be6ff",
+    "description": "If issue is requiring documentation from QA team."
+  },
+  {
+    "name": "QA Feature",
+    "color": "3ce200",
+    "description": "If issue is Bug from QA team."
+  },
+  {
+    "name": "QA Release",
+    "color": "79e0b8",
+    "description": "If this issue releated to realse from QA."
+  },
+  {
+    "name": "CI/CD",
+    "color": "ccf018",
+    "description": "Application Build and Deploy."
+  },
+  {
+    "name": "Jenkins",
+    "color": "e9d0b2",
+    "description": "If this issue is related Jenkins."
+  },
+  {
+    "name": "Terraform",
+    "color": "5c41e1",
+    "description": "If this issue is related Terraform."
+  },
+  {
+    "name": "Helm",
+    "color": "21789c",
+    "description": "If this issue is related Helm."
+  },
+  {
+    "name": "Docker",
+    "color": "2092e6",
+    "description": "If this issue is related Docker."
+  },
+  {
+    "name": "Bastion",
+    "color": "e00434",
+    "description": "If this issue is related Bastion host."
+  },
+  {
+    "name": "Nexus",
+    "color": "2aaf6f",
+    "description": "If this issue is related Nexus."
+  },
+  {
+    "name": "Grafana",
+    "color": "ef851b",
+    "description": "If this issue is related Grafana."
+  },
+  {
+    "name": "Prometheus",
+    "color": "e04f28",
+    "description": "If this issue is related Prometheus."
+  },
+  {
+    "name": "Vault",
+    "color": "000000",
+    "description": "If this issue is related Vault."
+  },
+  {
+    "name": "Kubernete Dashboard",
+    "color": "00999a",
+    "description": "If this issue is related Kubernete Dashboard."
+  },
+  {
+    "name": "Python",
+    "color": "37709f",
+    "description": "If this issue is related Python."
+  },
+  {
+    "name": "Bash Scripting",
+    "color": "012935",
+    "description": "If this issue is related Bash Scripting."
+  },
+  {
+    "name": "Security",
+    "color": "e80008",
+    "description": "If this issue is related Security."
+  },
+  {
+    "name": "Kubernetes",
+    "color": "326ce5",
+    "description": "If this issue is related Kubernetes."
+  },
+  {
+    "name": "Groovy",
+    "color": "619cbd",
+    "description": "If this issue is related Groovy."
+  },
+  {
+    "name": "Django",
+    "color": "619cbd",
+    "description": "If this issue is related Django."
+  },
+  {
+    "name": "DevOps Senior",
+    "color": "eb00eb",
+    "description": "If this issue is related DevOps Senior Team."
+  },
+  {
+    "name": "DevOps Junior",
+    "color": "00c9bc",
+    "description": "If this issue is related DevOps Junior."
+  },
+  {
+    "name": "AWS",
+    "color": "ff9900",
+    "description": "If this issue is related AWS."
+  },
+  {
+    "name": "AWS EKS",
+    "color": "00c9bc",
+    "description": "If this issue is related AWS EKS."
+  },
+  {
+    "name": "Story",
+    "color": "27c219",
+    "description": "If this issue is related Story."
+  },
+  {
+    "name": "Epic",
+    "color": "840aca",
+    "description": "If this issue is related Epic."
+  },
+  {
+    "name": "GCP",
+    "color": "0a84ca",
+    "description": "If this issue is related GCP."
+  },
+  {
+    "name": "Priority High",
+    "color": "e20000",
+    "description": "Please select following label to select priority of the ticket"
+  },
+  {
+    "name": "Priority Medium",
+    "color": "d8b415",
+    "description": "Please select following label to select priority of the ticket"
+  },
+  {
+    "name": "Priority Low",
+    "color": "4f6cee",
+    "description": "Please select following label to select priority of the ticket"
+  },
+  {
+    "name": "Sprint 1",
+    "color": "7abce2",
+    "description": "Please select this label for the sprint 1"
+  },
+  {
+    "name": "Sprint 2",
+    "color": "50aadf",
+    "description": "Please select this label for the sprint 2"
+  },
+  {
+    "name": "Sprint 3",
+    "color": "2992cf",
+    "description": "Please select this label for the sprint 3"
+  },
+  {
+    "name": "Sprint 4",
+    "color": "0f6fa7",
+    "description": "Please select this label for the sprint 4"
+  },
+  {
+    "name": "Task",
+    "color": "e20000",
+    "description": "Please select this label for the task"
+  },
+  {
+    "name": "Bug",
+    "color": "fbca04",
+    "description": "Please select this label for the bug"
+  },
+  {
+    "name": "Sub-task",
+    "color": "613aa8",
+    "description": "Please select this label for the sub-task"
+  },
+  {
+    "name": "Require DEMO",
+    "color": "0096c7",
+    "description": "Please select this label if you need DEMO for the ticket"
+  },
+  
+  {
+    "name": "Require Documentation",
+    "color": "4C061D",
+    "description": "Please select this label if you need documentation for the ticket"
+  },
+  
+  {
+    "name": "Point 1",
+    "color": "4C061D",
+    "description": "Please select this label if your ticket requires 5 hours"
+  },
+  {
+    "name": "Point 2",
+    "color": "CD5C5C",
+    "description": "Please select this label if your ticket requires 1 day"
+  },
+  {
+    "name": "Point 5",
+    "color": "808080",
+    "description": "Please select this label if your ticket requires 2-3 days"
+  },
+  {
+    "name": "Point 7",
+    "color": "FFFF00",
+    "description": "Please select this label if your ticket requires 1 week"
+  },
+  {
+    "name": "Point 9",
+    "color": "008080",
+    "description": "Please select this label if your ticket requires 2 weeks"
+  },
+  {
+    "name": "Sprint",
+    "color": "21618C",
+    "minimum": 5,
+    "maximum": 100,
+    "description": "Please select this label for the sprint 5 to 100"
+  },
+  {
+    "name": "Pilot istio",
+    "color": "abdbe3",
+    "description": "If this issue is related Pilot istio"
+  },
+  {
+    "name": "Security istio",
+    "color": "e28743",
+    "description": "If this issue is related Security istio"
+  },
+  {
+    "name": "Galley istio",
+    "color": "4C061D",
+    "description": "If this issue is related Galley istio"
+  },
+  {
+    "name": "Mixer istio",
+    "color": "154c79",
+    "description": "If this issue is related Mixer istio"
+  },
+  {
+    "name": "SidecarInjectorWebhook istio",
+    "color": "ebdab4",
+    "description": "If this issue is related SidecarInjectorWebhook istio"
+  },
+  {
+    "name": "Tracing istio",
+    "color": "4C061D",
+    "description": "If this issue is related Tracing istio"
+  },
+  {
+    "name": "Prometheus istio",
+    "color": "edb06b",
+    "description": "If this issue is related Prometheus istio"
+  },
+  {
+    "name": "Grafana istio",
+    "color": "ebb678",
+    "description": "If this issue is related Grafana istio"
+  },
+  {
+    "name": "Ingress-controller istio",
+    "color": "44bcd8",
+    "description": "If this issue is related Ingress-controller istio"
+  },
+  {
+    "name": "Kiali istio",
+    "color": "69bdd2",
+    "description": "If this issue is related Kiali istio"
+  },
+  {
+    "name": "waypoint",
+    "color": "e07b39",
+    "description": "If this issue is related waypoint"
+  },
+  {
+    "name": "RCA",
+    "color": "042f66",
+    "description": "If this issue is related RCA"
+  },
+  {
+    "name": "Certmanager",
+    "color": "4C061D",
+    "description": "If this issue is related Certmanager"
+  },
+  {
+    "name": "External DNS",
+    "color": "1979a9",
+    "description": "If this issue is related External DNS"
+  }
+] 
